@@ -7,7 +7,7 @@ pip3 install pycryptodome
 pip install pycrypto
 ```
 
-* Flask WebAppì
+* Flask WebApp
 > send a key and receive a set of shares
 ```
 python sss_web.py
