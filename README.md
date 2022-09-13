@@ -2,11 +2,24 @@
 I change it
 * Prerequsite 
 ```
-pip install pycryptodomex
-pip3 install pycryptodome
-pip install pycrypto
+$ python3 -m venv venv
+$ . venv/bin/activate
+$ pip install pycryptodomex
+$ pip install pycryptodome
+$ pip install pycrypto
+$ pip install flask
+$ pip install requests
+$ cd okCrypto
 ```
 
+
+* run encryption and description by  using symmetric key 
+python enc_AES.py -i Halra.jpg -m keys.json
+python dec_AES.py  -o  m1.jpg -m keys.json
+
+
+
+## Following is underconstruction
 * Flask WebApp
 > send a key and receive a set of shares
 ```
