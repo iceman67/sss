@@ -26,8 +26,10 @@ python dec_AES.py  -o  m1.jpg -m keys.json
 > send a key and receive a set of shares, run the two commands on the different terminals
 ```
 python sss_web.py
-python  sss_web_client.py
+python sss_web_client.py
 
+
+## HOW it works
 ```
 * Encryption 
 > enc_AES_sss.py get shares to execute a function sss_gen_shares()  via sss_web
