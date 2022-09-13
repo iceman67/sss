@@ -10,6 +10,7 @@ $ pip install pycrypto
 $ pip install flask
 $ pip install requests
 $ cd okCrypto
+$ git clone https://github.com/ergl/sss_py
 ```
 
 
