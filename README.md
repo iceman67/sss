@@ -14,9 +14,10 @@ $ cd okCrypto
 
 
 * run encryption and description by  using symmetric key 
+```
 python enc_AES.py -i Halra.jpg -m keys.json
 python dec_AES.py  -o  m1.jpg -m keys.json
-
+```
 
 
 ## Following is underconstruction
