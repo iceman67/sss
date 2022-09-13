@@ -1,5 +1,6 @@
 # sss
-I change it
+
+
 * Prerequsite 
 ```
 $ python3 -m venv venv
@@ -20,10 +21,9 @@ python enc_AES.py -i Halra.jpg -m keys.json
 python dec_AES.py  -o  m1.jpg -m keys.json
 ```
 
-
-## Following is underconstruction
+## Web based SSS
 * Flask WebApp
-> send a key and receive a set of shares
+> send a key and receive a set of shares, run the two commands on the different terminals
 ```
 python sss_web.py
 python  sss_web_client.py
