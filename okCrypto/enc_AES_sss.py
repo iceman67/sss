@@ -30,10 +30,10 @@ def encrypt(key, data):
     return result
 
 
-def sss_gen_shares(key):
+def res(key):
 
     key = b64encode(key).decode('utf-8')
-    # print  (f"random b64 key = {key}")
+    print  (f"random b64 key = {key}")
     response = requests.get('http://localhost:5000/encrypt/' + key)
 
     json_response = response.json()
@@ -52,7 +52,7 @@ if __name__ == '__main__':
     data = b"secret"  # input
     key = get_random_bytes(16)  # key
     print (f"key = {key}")
-    sss_gen_shares(key)
+    res(key)
 
     cipher = AES.new(key, AES.MODE_CBC)
 
